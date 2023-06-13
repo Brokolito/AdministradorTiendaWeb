@@ -1,0 +1,75 @@
+.n-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:90%;
+    white-space: nowrap;
+    background:black;
+    color:#fff;
+    padding:20px;
+    margin:auto;
+
+
+}
+.n-bar > ul{
+    list-style:none;
+    display:flex;
+    gap: 15px;
+    text-align:center;
+
+}
+.n-bar a{
+    text-decoration:none;
+    color:#fff;
+
+}
+
+.n-bar a:hover{
+    text-decoration:underline;
+}
+.p-welcome{
+    width:80%;
+    margin:auto;
+}
+.p-welcome h1{
+    font-size:80px;
+}
+.p-welcome p{
+    margin:0px 40px;
+    font-size:30px;
+    width:80%
+}
+.b-producto form{
+    display:flex;
+    margin:20px auto;
+    width:80%;
+    justify-items:center;
+    justify-content:space-around
+}
+.r-busqueda table{
+    text-align:center;
+    width:80%;
+    margin:auto;
+    justify-content:space-evenly;
+}
+.r-busqueda th{
+    border-bottom: 5px solid black;
+}
+
+.register-form {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin:20px auto;
+    justify-content:space-evenly;
+    align-content:center;
+}
+.product-form {
+    display:flex;
+    width:80%;
+    margin: 20px auto;
+}
+.e-product-form{
+    width:80%;
+    margin:20px auto;
+}
